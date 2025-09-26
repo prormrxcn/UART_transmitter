@@ -1,0 +1,176 @@
+$date
+	Thu Sep 25 08:11:19 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_uart $end
+$var wire 1 ! serial_tx $end
+$var reg 1 " clk $end
+$var reg 8 # datain [7:0] $end
+$var reg 1 $ enable $end
+$var reg 1 % rst $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 8 & datain [7:0] $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var wire 1 ! serial_tx $end
+$scope module uart_tx $end
+$var wire 1 " clk $end
+$var wire 8 ' data [7:0] $end
+$var wire 1 $ enable $end
+$var wire 1 % rst $end
+$var parameter 14 ( BAUD_COUNT $end
+$var reg 4 ) bit_counter [3:0] $end
+$var reg 14 * counter [13:0] $end
+$var reg 10 + shift_reg [9:0] $end
+$var reg 1 , state $end
+$var reg 1 ! tx $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10100010110001 (
+$end
+#0
+$dumpvars
+x,
+bx +
+bx *
+bx )
+b10100101 '
+b10100101 &
+1%
+0$
+b10100101 #
+0"
+x!
+$end
+#5000
+1!
+b1111111111 +
+b0 )
+b0 *
+0,
+1"
+#10000
+0"
+0%
+#15000
+1"
+#20000
+0"
+1$
+#25000
+b101001011 +
+1,
+1"
+#30000
+0"
+0$
+#35000
+b1 *
+1"
+#40000
+0"
+#45000
+b10 *
+1"
+#50000
+0"
+#55000
+b11 *
+1"
+#60000
+0"
+#65000
+b100 *
+1"
+#70000
+0"
+#75000
+b101 *
+1"
+#80000
+0"
+#85000
+b110 *
+1"
+#90000
+0"
+#95000
+b111 *
+1"
+#100000
+0"
+#105000
+b1000 *
+1"
+#110000
+0"
+#115000
+b1001 *
+1"
+#120000
+0"
+#125000
+b1010 *
+1"
+#130000
+0"
+#135000
+b1011 *
+1"
+#140000
+0"
+#145000
+b1100 *
+1"
+#150000
+0"
+#155000
+b1101 *
+1"
+#160000
+0"
+#165000
+b1110 *
+1"
+#170000
+0"
+#175000
+b1111 *
+1"
+#180000
+0"
+#185000
+b10000 *
+1"
+#190000
+0"
+#195000
+b10001 *
+1"
+#200000
+0"
+#205000
+b10010 *
+1"
+#210000
+0"
+#215000
+b10011 *
+1"
+#220000
+0"
+#225000
+b10100 *
+1"
+#230000
+0"
